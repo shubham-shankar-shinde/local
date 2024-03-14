@@ -1,0 +1,206 @@
+      header {
+          display: flex;
+      }
+      
+      .navbar {
+          height: 750px;
+          width: 230px;
+          border-right: 1px solid rgba(10, 10, 10, 0.775);
+          position: fixed;
+          display: block;
+      }
+      
+      .insta-logo {
+          height: 45px;
+          width: 140px;
+          background-image: url(insta-logo.jpeg);
+          background-size: cover;
+          margin-left: 15px;
+          cursor: pointer;
+          margin-bottom: 30px;
+          margin-top: 20px;
+          mix-blend-mode: darken;
+      }
+      
+      .nav2 {
+          height: 55px;
+          width: 210px;
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+      }
+      
+      .nav2 i {
+          padding-left: 20px;
+          padding-right: 10px;
+      }
+      
+      .nav2:hover {
+          background-color: rgba(240, 238, 238, 0.936);
+          cursor: pointer;
+          font-size: large;
+          transform: scale(1.05);
+      }
+      
+      .reel {
+          height: 40px;
+          width: 210px;
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          border-radius: 10px;
+      }
+      
+      .reel img {
+          height: 15px;
+          width: 15px;
+          padding-left: 20px;
+          padding-right: 10px;
+      }
+      
+      .reel:hover {
+          background-color: rgba(240, 238, 238, 0.936);
+          cursor: pointer;
+          font-size: large;
+          transform: scale(1.05);
+      }
+      
+      .Profile {
+          height: 50px;
+          width: 210px;
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          border-radius: 10px;
+      }
+      
+      .Profile img {
+          height: 20px;
+          width: 20px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-radius: 50%;
+          margin-left: 10px;
+      }
+      
+      .Profile:hover {
+          background-color: rgba(240, 238, 238, 0.936);
+          cursor: pointer;
+          font-size: large;
+          transform: scale(1.05);
+      }
+      
+      .threads {
+          height: 50px;
+          width: 210px;
+          display: flex;
+          align-items: center;
+          margin-top: 0rem;
+          border-radius: 10px;
+      }
+      
+      .threads i {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
+      }
+      
+      .threads:hover {
+          background-color: rgba(240, 238, 238, 0.936);
+          cursor: pointer;
+          font-size: large;
+          transform: scale(1.05);
+      }
+      /* main page*/
+      
+      .margin {
+          margin-top: 5rem;
+      }
+      
+      .story {
+          height: 4rem;
+          width: 4rem;
+          border-radius: 50%;
+          background-color: black;
+          background-size: cover;
+          border: 2px double rgb(229, 60, 237);
+          cursor: pointer;
+      }
+      
+      .page {
+          height: 6rem;
+          width: 50rem;
+          margin-top: 2rem;
+          margin-left: 20rem;
+          display: flex;
+          background-size: cover;
+          overflow-x: auto;
+      }
+      
+      .page::-webkit-scrollbar {
+          display: none;
+      }
+      
+      .page div {
+          margin-left: 2rem;
+          overflow: hidden;
+          overflow-x: auto;
+      }
+      
+      .page p {
+          margin-top: 0.25rem;
+          height: 1.25rem;
+          width: 4.25rem;
+          overflow: hidden;
+          font-size: smaller;
+          text-overflow: ellipsis;
+          margin-left: 2rem;
+      }
+      
+      p::-webkit-scrollbar {
+          display: none;
+      }
+      
+      a {
+          text-decoration: none;
+          color: black;
+      }
+      
+      .im1 {
+          background-image: url(1story.jpg);
+      }
+      
+      .im2 {
+          background-image: url(2img.jpg);
+      }
+      
+      .im3 {
+          background-image: url(img3.jpg);
+      }
+      
+      .im4 {
+          background-image: url(4img.jpg);
+      }
+      
+      .im5 {
+          background-image: url(ram5.jpg);
+      }
+      
+      .im6 {
+          background-image: url(6img.jpg);
+      }
+      
+      .im7 {
+          background-image: url(7img.jpg);
+      }
+      
+      .im8 {
+          background-image: url(8img.jpg);
+      }
+      
+      .im9 {
+          background-image: url(9img.jpg);
+      }
+      
+      .im10 {
+          background-image: url(10img.jpg);
+      }
