@@ -1,4 +1,10 @@
-h1 {
-    color: aqua;
-    background-color: aqua;
+.download h1,
+input {
+    color: rgba(255, 162, 0, 0.886);
+    text-decoration: none;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
 }
