@@ -131,6 +131,7 @@
           width: 50rem;
           margin-top: 2rem;
           margin-left: 20rem;
+          position: absolute;
           display: flex;
           background-size: cover;
           overflow-x: auto;
