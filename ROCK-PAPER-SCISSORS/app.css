@@ -10,17 +10,15 @@ color: rgb(248, 196, 129);
 line-height: 4rem;
 }
 .choices{
-    margin-top: 1rem;
+    margin-top:4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 .choice{
-    height: 150px;
-    width: 150px;
-     
-    
+    height: 160px;
+    width: 160px;   
 }
  .choice img{
     height: 130px;
@@ -30,9 +28,7 @@ line-height: 4rem;
  }
  .choice img:hover{
     border: 3px solid rgb(15, 11, 11);
-     
     cursor: pointer;
-
  }
  .score-board{
     display: flex;

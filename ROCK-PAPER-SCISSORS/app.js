@@ -46,12 +46,9 @@ else if(userchoice==="paper"){
 }else{
     userwin= compchoice==="rock"?false:true;
 }
-showwinner(userwin,userchoice,compchoice);
-    
+showwinner(userwin,userchoice,compchoice);    
 }
 }
-
-
  choices.forEach((choice)=>{
 choice.addEventListener("click",()=>{
  let userchoice = choice.getAttribute("id");
