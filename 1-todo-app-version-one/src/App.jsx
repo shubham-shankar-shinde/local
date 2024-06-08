@@ -10,7 +10,6 @@ function App() {
         <AppName />
         <AddTodo />
         <div class="items">
-          {" "}
           <TodoItem1 />
           <TodoItem2 />
         </div>

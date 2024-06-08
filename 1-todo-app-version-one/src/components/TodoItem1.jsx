@@ -2,7 +2,7 @@ function TodoItem1() {
   let todoname = "Buy Milk";
   let tododate = "04/10/2024";
   return (
-    <div class="row kg-row">
+    <div class="row kg-row ">
       <div class="col-6">{todoname}</div>
       <div class="col-4">{tododate}</div>
       <div class="col-2">

@@ -1,12 +1,10 @@
 function AddTodo() {
   return (
-    <div class="row kg-row">
+    <div class="row kg-row items">
       <div class="col-6">
-        {" "}
         <input type="text" placeholder="Input Todo Here" />
       </div>
       <div class="col-4">
-        {" "}
         <input type="date" />
       </div>
       <div class="col-2">
