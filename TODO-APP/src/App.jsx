@@ -9,8 +9,7 @@ function App() {
   const [todoItems, setTodoItems] = useState([]);
 
   const handleNewItem = (itemName, ItemDate) => {
-    console.log(`new item added ${itemName} Date:${ItemDate}`);
-    const newTodoItems = [...todoItems, { name: itemName, dueDate: ItemDate },];
+    const newTodoItems = [...todoItems, { name: itemName, dueDate: ItemDate }];
     setTodoItems(newTodoItems);
   };
   const handleDeleteItem = (todoItemName) => {

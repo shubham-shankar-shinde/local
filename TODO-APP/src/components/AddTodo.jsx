@@ -1,8 +1,8 @@
 import { useState } from "react";
-
+import { RiPlayListAddLine } from "react-icons/ri";
 function AddTodo({ onNewItem }) {
-  const [todoName, setTodoName] = useState();
-  const [dueDate, setDueDate] = useState();
+  const [todoName, setTodoName] = useState("");
+  const [dueDate, setDueDate] = useState("");
   const handlenameonchange = (event) => {
     setTodoName(event.target.value);
   };
@@ -34,7 +34,7 @@ function AddTodo({ onNewItem }) {
             onClick={handledonbuttonclick}
             className="btn btn-success kg-button asign"
           >
-            Add
+            <RiPlayListAddLine />
           </button>
         </div>
       </div>
