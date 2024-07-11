@@ -1,0 +1,27 @@
+ .app-container{
+    display: flex;
+ 
+ }
+ .container{
+ width:100% ;
+ }
+ .sideBar{
+    min-height: 750px;
+    width: 30px;
+ }
+ .post-card{
+       margin: 20px 50px;
+       min-width: 30rem;
+ }
+ .tags-list{
+  margin:0px 5px;
+ }
+ .reactions{
+   width: 100%;
+margin: 20px 0 0 0;
+ }
+ .create-post{
+  max-width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+ }
