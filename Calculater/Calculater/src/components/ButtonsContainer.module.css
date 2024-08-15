@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background:linear-gradient(#F0A8D0,#F7B5CA,#FFC6C6,#FFEBD4 ) ;
     
     }
     .button{

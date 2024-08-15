@@ -9,15 +9,15 @@ body.classList.add("dark");
 body.classList.remove("light");
 para.innerText="this is a dark theme".toUpperCase();
 btn.style.color="white";
-btn.style.backgroundColor="pink";
+btn.style.backgroundColor="black";
 }
 else{
     currmode="light";
     body.classList.add("light");
     body.classList.remove("dark");
     para.innerText="this is a light theme".toUpperCase();
-    btn.style.color="red";
-    btn.style.backgroundColor="aqua";
+    btn.style.color="black";
+    btn.style.backgroundColor="white";
     
 }
  })

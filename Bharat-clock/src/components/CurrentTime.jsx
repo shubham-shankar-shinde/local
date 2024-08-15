@@ -13,8 +13,8 @@ let CurrentTime = () => {
   }, []);
 
   return (
-    <p className="lead">
-      This is the current time: {date.toLocaleDateString()} -{" "}
+    <p className="lead wrap" style={{ color: "#4B70F5" }}>
+      This is the current time : {date.toLocaleDateString()} -{" "}
       {date.toLocaleTimeString()}
     </p>
   );

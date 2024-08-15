@@ -13,7 +13,7 @@
       .insta-logo {
           height: 45px;
           width: 140px;
-          background-image: url(insta-logo.jpeg);
+          background-image: url(./images/insta-logo.jpeg);
           background-size: cover;
           margin-left: 15px;
           cursor: pointer;
@@ -167,41 +167,41 @@
       }
       
       .im1 {
-          background-image: url(1story.jpg);
+          background-image: url(./images/1story.jpg);
       }
       
       .im2 {
-          background-image: url(2img.jpg);
+          background-image: url(./images/2img.jpg);
       }
       
       .im3 {
-          background-image: url(img3.jpg);
+          background-image: url(./images/img3.jpg);
       }
       
       .im4 {
-          background-image: url(4img.jpg);
+          background-image: url(./images/4img.jpg);
       }
       
       .im5 {
-          background-image: url(ram5.jpg);
+          background-image: url(./images/ram5.jpg);
       }
       
       .im6 {
-          background-image: url(6img.jpg);
+          background-image: url(./images/6img.jpg);
       }
       
       .im7 {
-          background-image: url(7img.jpg);
+          background-image: url(./images/7img.jpg);
       }
       
       .im8 {
-          background-image: url(8img.jpg);
+          background-image: url(./images/8img.jpg);
       }
       
       .im9 {
-          background-image: url(9img.jpg);
+          background-image: url(./images/9img.jpg);
       }
       
       .im10 {
-          background-image: url(10img.jpg);
+          background-image: url(./images/10img.jpg);
       }

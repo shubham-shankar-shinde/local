@@ -1,1 +1,17 @@
  
+ .external{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#F0A8D0,#F7B5CA,#FFC6C6,#FFEBD4 );
+    margin:1vh;
+    border: 5px solid rgba(47, 213, 144, 0.551);
+ }
+ 
+.wrap{
+   
+ border: none;
+ text-wrap: auto;
+ 
+}

@@ -4,6 +4,7 @@
  }
  .container{
  width:100% ;
+ padding: unset;
  }
  .sideBar{
     min-height: 750px;
@@ -25,3 +26,7 @@ margin: 20px 0 0 0;
   margin-top: 50px;
   margin-left: 10%;
  }
+ .message{
+   padding: 20% 0 20% 0;
+ }
+  

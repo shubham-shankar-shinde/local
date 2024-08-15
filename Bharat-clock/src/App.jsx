@@ -5,11 +5,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 function App() {
   return (
-    <center>
-      <AppHeading />
-      <ClockSlogn />
-      <CurrentTime />
-    </center>
+    <div className="external">
+      <center>
+        <AppHeading />
+        <ClockSlogn />
+        <CurrentTime />
+      </center>
+    </div>
   );
 }
 
