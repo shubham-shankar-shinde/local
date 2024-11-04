@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import PostList from "./components/postList";
 import Createpost from "./components/createPost";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./routes/App";
 const router = createBrowserRouter([
   {
     path: "/",
